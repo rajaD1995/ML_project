@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 import pickle
 
 ## Step 2: Load the Dataset
-original_df = pd.read_csv(r'C:\Users\USER\Documents\Python\Nareshit data analysis\stats and ML\ML\27th- l1, l2, scaling\lasso, ridge, elastic net\TASK-22_LASSO,RIDGE\car-mpg.csv')
+original_df = pd.read_csv(r'car-mpg.csv')
 
 df = original_df.copy()
 
