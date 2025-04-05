@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model and selected features
-model = pickle.load(open(r'C:\Users\USER\Documents\Python\Nareshit data analysis\stats and ML\Practice\ols_model.pkl', 'rb'))
+model = pickle.load(open(r'ols_model.pkl', 'rb'))
 
 # # ✨ Define selected features (from training phase)
 # selected_features = ['cyl', 'disp', 'hp', 'wt', 'acc', 'yr', 'car_type', 'origin_asia', 'origin_europe']
